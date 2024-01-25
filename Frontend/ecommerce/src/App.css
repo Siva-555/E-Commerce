@@ -1,0 +1,51 @@
+@import url("https://fonts.googleapis.com/css2?family=Varela+Round&display=swap");
+
+:root {
+  --app-background-color: #ffffff;
+  --ft-background-color-gradient: radial-gradient(
+    circle,
+    rgba(151, 9, 214, 1) 12%,
+    rgba(114, 12, 158, 1) 40%,
+    rgba(96, 1, 139, 1) 60%,
+    rgba(76, 7, 105, 1) 94%
+  );
+  --feature-bg-color: radial-gradient(
+    circle,
+    rgba(142, 19, 199, 1) 23%,
+    rgba(129, 3, 181, 1) 78%,
+    rgba(105, 4, 149, 1) 100%
+  );
+  --text-color: #ece0f2;
+  --border-line-color: #ece0f2;
+  --ft-icons-color-default: #ece0f2;
+  --ft-icons-facebook-color: #316ff6;
+  --ft-icons-instagram-color: #fc8686;
+  --ft-icons-xtwitter-color: #000000;
+  --ft-icons-youtube-color: #cd201f;
+  --ft-background-color: rgb(151, 9, 214);
+  --ft-background-dark-color: #300842;
+  --product-card-bg-color: #f1e9f5;
+}
+.App {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+  background: var(--app-background-color);
+  font-family: "Varela Round", sans-serif;
+  min-width: 980px;
+}
+
+/* @media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+} */

@@ -1,0 +1,118 @@
+.footer-container {
+  width: 100%;
+  left: 0;
+  right: 0;
+  background: var(--ft-background-color);
+  background: var(--ft-background-color-gradient);
+  color: var(--text-color);
+
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+}
+.ft-container-1 {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: flex-start;
+}
+.ft-container-2 {
+  background-color: var(--ft-background-dark-color);
+  color: var(--text-color);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+}
+/* Footer Global Section */
+.ft-line {
+  border: 1px solid var(--border-line-color);
+  height: 170px;
+  margin-top: 50px;
+}
+.ft-cat-h6 {
+  margin: 20px 0px 10px 10px;
+  font-weight: 500;
+  font-size: 18px;
+}
+
+.ft-list {
+  list-style: none;
+  padding-inline-start: 5px;
+}
+.ft-links {
+  color: var(--text-color);
+  text-decoration: none;
+}
+.ft-links:hover {
+  text-decoration: underline;
+}
+
+/* Logo Section */
+.ft-logo-container {
+  align-self: center;
+  height: 100px;
+}
+/* Online Shopping Container */
+.ft-online-shopping {
+  display: flex;
+  flex-direction: column;
+  margin-left: 32px;
+}
+
+/* Social Container */
+.ft-social-container {
+  display: flex;
+  flex-direction: column;
+  margin-left: 32px;
+}
+.ft-social-icons-list {
+  display: flex;
+  flex-direction: row;
+}
+.ft-social-icons-item {
+  margin: 5px;
+}
+.ft-social-icon {
+  color: var(--ft-icons-color-default);
+  transition: all 400ms ease-out 0s;
+}
+.ft-facebook-icon:hover {
+  color: var(--ft-icons-facebook-color);
+  height: 28px;
+}
+.ft-instagram-icon:hover {
+  color: var(--ft-icons-instagram-color);
+  height: 28px;
+}
+.ft-xtwitter-icon:hover {
+  color: var(--ft-icons-xtwitter-color);
+  height: 28px;
+}
+.ft-youtube-icon:hover {
+  color: var(--ft-icons-youtube-color);
+  height: 28px;
+}
+/* Help Container */
+.ft-help-container {
+  display: flex;
+  flex-direction: column;
+  margin-left: 32px;
+}
+
+/* About  */
+
+.ft-about-container {
+  display: flex;
+  flex-direction: column;
+  margin-left: 32px;
+}
+
+/* Payments Container */
+
+.ft-payments-list {
+  display: flex;
+  flex-direction: row;
+}

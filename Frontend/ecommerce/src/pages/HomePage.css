@@ -1,0 +1,32 @@
+.home-img {
+  object-fit: cover;
+  height: 300px;
+  width: 100%;
+}
+
+.image-container {
+  position: relative;
+}
+.Image-overlay {
+  background-color: rgb(0, 0, 0, 0.3);
+  position: absolute;
+  inset: 0;
+  color: white;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.Image-overlay:hover {
+  backdrop-filter: blur(4px);
+}
+
+.Image-overlay h4 {
+  font-weight: 500;
+  font-size: 60px;
+}
+.Image-overlay h6 {
+  font-weight: 400;
+  font-size: 24px;
+}
